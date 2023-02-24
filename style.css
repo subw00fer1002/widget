@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto:400,700');
+
+body{
+    background-color: #fff;
+    line-height: 1.6;
+
+}
+
+h1 {
+    margin-top: 0;
+}
+
+
+.full-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.card {
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    background-image: url(https://media.istockphoto.com/id/1428421318/photo/view-from-beach-to-water-of-sea-waves-with-white-foam-pierce-and-sky-with-clouds-in-a-nice.jpg?b=1&s=170667a&w=0&k=20&c=dIkgqrym9ogEUCUsxJa53TyjgdalPzFMxFbHumTpor8=);
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 120px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-blend-mode: color-burn;
+    color: rgb(245, 237, 163);
+    display: inline-block;
+    box-shadow: 2px 2px 1px 0px #404c53;
+}
+
+.card:hover {
+    margin-top: 2px;
+    box-shadow: none;
+}
+
+.clock {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    /* padding-left: 20px; */
+}
+
+.time {
+    display: inline-block;
+    min-width: 37px;
+}
+
+.colon {
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+.date {
+    display: block;
+    min-width: 162px;
+    /* padding-right: 30px; */
+    /* border-right: 2px solid #295C7B; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+.greet{
+    
+    min-width: 162px;
+    /* padding-right: 30px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+.old{
+    
+    min-width: 162px;
+    /* padding-right: 30px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
